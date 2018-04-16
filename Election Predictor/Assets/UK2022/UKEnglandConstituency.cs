@@ -10,7 +10,9 @@ public class UKEnglandConstituency : MonoBehaviour {
 
 	public startingParty StartingParty;
 
-	int ConstituencyPopulation;
+	public string ConstituencyName;
+
+	public int ConstituencyPopulation;
 
 	public float PrevConservativeShareOfVote;
 	public float PrevLabourShareOfVote;
