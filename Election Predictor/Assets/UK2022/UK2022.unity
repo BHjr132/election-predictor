@@ -155,19 +155,124 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartingParty: 0
+  EnglandRegion: 6
   ConstituencyName: Truro & Falmouth
-  ConstituencyPopulation: 0
+  TurnoutNumber: 56647
+  TurnoutPercentage: 75.8
   PrevConservativeShareOfVote: 44.4
   PrevLabourShareOfVote: 37.7
   PrevLibDemShareOfVote: 14.9
   PrevUKIPShareOfVote: 1.6
   PrevGreenShareOfVote: 1.5
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
 --- !u!212 &21986321
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 21986318}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 9bd0aac29585e574082735388feda209, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.71, y: 6.6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!1 &125668874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 125668875}
+  - component: {fileID: 125668877}
+  - component: {fileID: 125668876}
+  m_Layer: 0
+  m_Name: BournemouthEast
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &125668875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 125668874}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 43.125, y: 14.975, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1365640682}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &125668876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 125668874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d78086a91480aaa4983f0ca1cd8203c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartingParty: 0
+  EnglandRegion: 6
+  ConstituencyName: Bournemouth East
+  TurnoutNumber: 48618
+  TurnoutPercentage: 65.2
+  PrevConservativeShareOfVote: 51.9
+  PrevLabourShareOfVote: 35.6
+  PrevLibDemShareOfVote: 6.5
+  PrevUKIPShareOfVote: 2.9
+  PrevGreenShareOfVote: 2.5
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0.6
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
+--- !u!212 &125668877
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 125668874}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -280,6 +385,105 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 173137084}
+--- !u!1 &200951349
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 200951350}
+  - component: {fileID: 200951352}
+  - component: {fileID: 200951351}
+  m_Layer: 0
+  m_Name: WiltshireSouthWest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &200951350
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 200951349}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 48.875, y: 24.975, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1365640682}
+  m_RootOrder: 33
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &200951351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 200951349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d78086a91480aaa4983f0ca1cd8203c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartingParty: 0
+  EnglandRegion: 6
+  ConstituencyName: WiltshireSouthWest
+  TurnoutNumber: 54751
+  TurnoutPercentage: 72
+  PrevConservativeShareOfVote: 60
+  PrevLabourShareOfVote: 26.5
+  PrevLibDemShareOfVote: 9.8
+  PrevUKIPShareOfVote: 0
+  PrevGreenShareOfVote: 2.6
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 1.1
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
+--- !u!212 &200951352
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 200951349}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 9bd0aac29585e574082735388feda209, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.71, y: 6.6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &212568640
 GameObject:
   m_ObjectHideFlags: 0
@@ -354,6 +558,105 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 212568640}
+--- !u!1 &248391782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 248391783}
+  - component: {fileID: 248391785}
+  - component: {fileID: 248391784}
+  m_Layer: 0
+  m_Name: Exeter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &248391783
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 248391782}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 20.125, y: 14.975, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1365640682}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &248391784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 248391782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d78086a91480aaa4983f0ca1cd8203c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartingParty: 1
+  EnglandRegion: 6
+  ConstituencyName: Exeter
+  TurnoutNumber: 55423
+  TurnoutPercentage: 71.7
+  PrevConservativeShareOfVote: 32.9
+  PrevLabourShareOfVote: 62
+  PrevLibDemShareOfVote: 2.8
+  PrevUKIPShareOfVote: 0
+  PrevGreenShareOfVote: 1.9
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0.4
+  PrevIndependent2ShareOfVote: 0.1
+  PrevOthersShareOfVote: 0
+--- !u!212 &248391785
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 248391782}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 9bd0aac29585e574082735388feda209, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.71, y: 6.6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &254367501
 GameObject:
   m_ObjectHideFlags: 0
@@ -396,13 +699,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartingParty: 0
-  ConstituencyName: Camborne & Redruth
-  ConstituencyPopulation: 0
+  EnglandRegion: 6
+  ConstituencyName: Camborne and Redruth
+  TurnoutNumber: 48456
+  TurnoutPercentage: 71.8
   PrevConservativeShareOfVote: 47.5
   PrevLabourShareOfVote: 44.2
   PrevLibDemShareOfVote: 6.1
   PrevUKIPShareOfVote: 0
   PrevGreenShareOfVote: 2.2
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
 --- !u!212 &254367504
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -521,6 +830,105 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 305092211}
+--- !u!1 &368139772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 368139773}
+  - component: {fileID: 368139775}
+  - component: {fileID: 368139774}
+  m_Layer: 0
+  m_Name: DorsetNorth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &368139773
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 368139772}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 46, y: 19.975, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1365640682}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &368139774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 368139772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d78086a91480aaa4983f0ca1cd8203c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartingParty: 0
+  EnglandRegion: 6
+  ConstituencyName: Dorset North
+  TurnoutNumber: 55724
+  TurnoutPercentage: 74
+  PrevConservativeShareOfVote: 64.9
+  PrevLabourShareOfVote: 18.7
+  PrevLibDemShareOfVote: 13.6
+  PrevUKIPShareOfVote: 0
+  PrevGreenShareOfVote: 2.9
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
+--- !u!212 &368139775
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 368139772}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 9bd0aac29585e574082735388feda209, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.71, y: 6.6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &439541800
 GameObject:
   m_ObjectHideFlags: 0
@@ -625,13 +1033,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartingParty: 0
+  EnglandRegion: 6
   ConstituencyName: Devon South West
-  ConstituencyPopulation: 0
+  TurnoutNumber: 52857
+  TurnoutPercentage: 74.2
   PrevConservativeShareOfVote: 59.8
   PrevLabourShareOfVote: 29.9
   PrevLibDemShareOfVote: 5.2
   PrevUKIPShareOfVote: 2.9
   PrevGreenShareOfVote: 2.1
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
 --- !u!212 &448403196
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -852,13 +1266,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartingParty: 0
+  EnglandRegion: 6
   ConstituencyName: Devon East
-  ConstituencyPopulation: 0
+  TurnoutNumber: 60382
+  TurnoutPercentage: 73.3
   PrevConservativeShareOfVote: 48.5
   PrevLabourShareOfVote: 11.4
   PrevLibDemShareOfVote: 2.4
   PrevUKIPShareOfVote: 2
   PrevGreenShareOfVote: 0
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 35.2
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0.4
 --- !u!212 &469633049
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1118,13 +1538,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartingParty: 0
+  EnglandRegion: 6
   ConstituencyName: Bournemouth West
-  ConstituencyPopulation: 0
+  TurnoutNumber: 44507
+  TurnoutPercentage: 60.8
   PrevConservativeShareOfVote: 55.5
   PrevLabourShareOfVote: 18.3
   PrevLibDemShareOfVote: 23.5
   PrevUKIPShareOfVote: 0
   PrevGreenShareOfVote: 2.7
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0.9
 --- !u!212 &577442355
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1211,13 +1637,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartingParty: 0
+  EnglandRegion: 6
   ConstituencyName: Newton Abbot
-  ConstituencyPopulation: 0
+  TurnoutNumber: 51637
+  TurnoutPercentage: 72
   PrevConservativeShareOfVote: 55.5
   PrevLabourShareOfVote: 22.2
   PrevLibDemShareOfVote: 20.5
   PrevUKIPShareOfVote: 0
   PrevGreenShareOfVote: 1.8
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
 --- !u!212 &644350718
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1304,13 +1736,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartingParty: 0
-  ConstituencyName: St Ives
-  ConstituencyPopulation: 0
+  EnglandRegion: 6
+  ConstituencyName: St. Ives
+  TurnoutNumber: 51226
+  TurnoutPercentage: 75.9
   PrevConservativeShareOfVote: 43.2
   PrevLabourShareOfVote: 14.2
   PrevLibDemShareOfVote: 42.6
   PrevUKIPShareOfVote: 0
   PrevGreenShareOfVote: 0
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
 --- !u!212 &646203709
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1390,7 +1828,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
+  orthographic: 1
   orthographic size: 25
   m_Depth: -1
   m_CullingMask:
@@ -1413,13 +1851,211 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 690775447}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25, y: 0, z: -50}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 25, y: 5, z: -30}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &718533813
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 718533814}
+  - component: {fileID: 718533816}
+  - component: {fileID: 718533815}
+  m_Layer: 0
+  m_Name: Tiverton&Honiton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &718533814
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 718533813}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 25.875, y: 14.975, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1365640682}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &718533815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 718533813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d78086a91480aaa4983f0ca1cd8203c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartingParty: 0
+  EnglandRegion: 6
+  ConstituencyName: Tiverton and Honiton
+  TurnoutNumber: 57815
+  TurnoutPercentage: 71.5
+  PrevConservativeShareOfVote: 61.4
+  PrevLabourShareOfVote: 27.1
+  PrevLibDemShareOfVote: 8
+  PrevUKIPShareOfVote: 0
+  PrevGreenShareOfVote: 3.5
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
+--- !u!212 &718533816
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 718533813}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 9bd0aac29585e574082735388feda209, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.71, y: 6.6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!1 &764327132
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 764327133}
+  - component: {fileID: 764327135}
+  - component: {fileID: 764327134}
+  m_Layer: 0
+  m_Name: Weston-Super-Mare
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &764327133
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 764327132}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 34.5, y: 19.975, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1365640682}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &764327134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 764327132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d78086a91480aaa4983f0ca1cd8203c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartingParty: 0
+  EnglandRegion: 6
+  ConstituencyName: Weston-Super-Mare
+  TurnoutNumber: 56415
+  TurnoutPercentage: 68.7
+  PrevConservativeShareOfVote: 53.1
+  PrevLabourShareOfVote: 32.7
+  PrevLibDemShareOfVote: 9.2
+  PrevUKIPShareOfVote: 3.4
+  PrevGreenShareOfVote: 1.6
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
+--- !u!212 &764327135
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 764327132}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 9bd0aac29585e574082735388feda209, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.71, y: 6.6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &814782195
 GameObject:
   m_ObjectHideFlags: 0
@@ -1542,6 +2178,105 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 814782195}
+--- !u!1 &836348176
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 836348177}
+  - component: {fileID: 836348179}
+  - component: {fileID: 836348178}
+  m_Layer: 0
+  m_Name: TauntonDeane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &836348177
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 836348176}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 31.625, y: 14.975, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1365640682}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &836348178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 836348176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d78086a91480aaa4983f0ca1cd8203c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartingParty: 0
+  EnglandRegion: 6
+  ConstituencyName: Taunton Deane
+  TurnoutNumber: 63053
+  TurnoutPercentage: 73.8
+  PrevConservativeShareOfVote: 52.9
+  PrevLabourShareOfVote: 15.4
+  PrevLibDemShareOfVote: 27.7
+  PrevUKIPShareOfVote: 2.3
+  PrevGreenShareOfVote: 1.8
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
+--- !u!212 &836348179
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 836348176}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 9bd0aac29585e574082735388feda209, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.71, y: 6.6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &854207826
 GameObject:
   m_ObjectHideFlags: 0
@@ -1584,13 +2319,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartingParty: 0
+  EnglandRegion: 6
   ConstituencyName: DorsetSouth
-  ConstituencyPopulation: 0
+  TurnoutNumber: 52906
+  TurnoutPercentage: 68.7
   PrevConservativeShareOfVote: 56.1
   PrevLabourShareOfVote: 33.6
   PrevLibDemShareOfVote: 5.9
   PrevUKIPShareOfVote: 0
   PrevGreenShareOfVote: 4.4
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
 --- !u!212 &854207829
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1677,19 +2418,124 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartingParty: 0
+  EnglandRegion: 6
   ConstituencyName: Yeovil
-  ConstituencyPopulation: 0
+  TurnoutNumber: 59404
+  TurnoutPercentage: 71.6
   PrevConservativeShareOfVote: 54.5
   PrevLabourShareOfVote: 12.5
   PrevLibDemShareOfVote: 29.7
   PrevUKIPShareOfVote: 0
   PrevGreenShareOfVote: 1.8
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 1.5
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
 --- !u!212 &887213280
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 887213277}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 9bd0aac29585e574082735388feda209, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.71, y: 6.6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!1 &956404682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 956404683}
+  - component: {fileID: 956404685}
+  - component: {fileID: 956404684}
+  m_Layer: 0
+  m_Name: Poole
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &956404683
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 956404682}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 37.375, y: 14.975, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1365640682}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &956404684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 956404682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d78086a91480aaa4983f0ca1cd8203c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartingParty: 0
+  EnglandRegion: 6
+  ConstituencyName: Poole
+  TurnoutNumber: 49850
+  TurnoutPercentage: 67.5
+  PrevConservativeShareOfVote: 57.9
+  PrevLabourShareOfVote: 29.4
+  PrevLibDemShareOfVote: 8.9
+  PrevUKIPShareOfVote: 0
+  PrevGreenShareOfVote: 2.6
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 1.1
+--- !u!212 &956404685
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 956404682}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -1770,13 +2616,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartingParty: 0
+  EnglandRegion: 6
   ConstituencyName: Dorset West
-  ConstituencyPopulation: 0
+  TurnoutNumber: 59598
+  TurnoutPercentage: 75.4
   PrevConservativeShareOfVote: 55.5
   PrevLabourShareOfVote: 18.3
   PrevLibDemShareOfVote: 23.5
   PrevUKIPShareOfVote: 0
   PrevGreenShareOfVote: 2.7
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
 --- !u!212 &972788401
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1863,13 +2715,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartingParty: 1
+  EnglandRegion: 6
   ConstituencyName: Plymouth, Sutton & Devonport
-  ConstituencyPopulation: 0
+  TurnoutNumber: 51748
+  TurnoutPercentage: 66.9
   PrevConservativeShareOfVote: 40
   PrevLabourShareOfVote: 53.3
   PrevLibDemShareOfVote: 2.4
   PrevUKIPShareOfVote: 2.7
   PrevGreenShareOfVote: 1.2
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0.5
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
 --- !u!212 &1072287928
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2182,6 +3040,105 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1134207442}
+--- !u!1 &1158454699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1158454700}
+  - component: {fileID: 1158454702}
+  - component: {fileID: 1158454701}
+  m_Layer: 0
+  m_Name: SomersetNorth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1158454700
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1158454699}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 37.375, y: 24.975, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1365640682}
+  m_RootOrder: 31
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1158454701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1158454699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d78086a91480aaa4983f0ca1cd8203c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartingParty: 0
+  EnglandRegion: 6
+  ConstituencyName: Somerset North
+  TurnoutNumber: 61994
+  TurnoutPercentage: 76.9
+  PrevConservativeShareOfVote: 54.2
+  PrevLabourShareOfVote: 26.6
+  PrevLibDemShareOfVote: 9.6
+  PrevUKIPShareOfVote: 0
+  PrevGreenShareOfVote: 3.2
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 6.3
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
+--- !u!212 &1158454702
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1158454699}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 9bd0aac29585e574082735388feda209, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.71, y: 6.6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1175100122
 GameObject:
   m_ObjectHideFlags: 0
@@ -2298,13 +3255,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartingParty: 0
+  EnglandRegion: 6
   ConstituencyName: Cornwall North
-  ConstituencyPopulation: 0
+  TurnoutNumber: 50944
+  TurnoutPercentage: 74
   PrevConservativeShareOfVote: 50.7
   PrevLabourShareOfVote: 12.1
   PrevLibDemShareOfVote: 36.6
   PrevUKIPShareOfVote: 0
   PrevGreenShareOfVote: 0
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0.7
 --- !u!212 &1190997914
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2349,6 +3312,331 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &1292243149
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1292243150}
+  - component: {fileID: 1292243152}
+  - component: {fileID: 1292243151}
+  m_Layer: 0
+  m_Name: Christchurch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1292243150
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1292243149}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 48.875, y: 14.975, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1365640682}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1292243151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1292243149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d78086a91480aaa4983f0ca1cd8203c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartingParty: 0
+  EnglandRegion: 6
+  ConstituencyName: Christchurch
+  TurnoutNumber: 50633
+  TurnoutPercentage: 72
+  PrevConservativeShareOfVote: 69.6
+  PrevLabourShareOfVote: 19.9
+  PrevLibDemShareOfVote: 7.9
+  PrevUKIPShareOfVote: 0
+  PrevGreenShareOfVote: 2.6
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
+--- !u!212 &1292243152
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1292243149}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 9bd0aac29585e574082735388feda209, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.71, y: 6.6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!1 &1344875866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1344875867}
+  - component: {fileID: 1344875869}
+  - component: {fileID: 1344875868}
+  m_Layer: 0
+  m_Name: Wells
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1344875867
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1344875866}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 28.75, y: 19.975, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1365640682}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1344875868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1344875866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d78086a91480aaa4983f0ca1cd8203c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartingParty: 0
+  EnglandRegion: 6
+  ConstituencyName: Wells
+  TurnoutNumber: 60843
+  TurnoutPercentage: 73.8
+  PrevConservativeShareOfVote: 50.1
+  PrevLabourShareOfVote: 11.7
+  PrevLibDemShareOfVote: 37.6
+  PrevUKIPShareOfVote: 3.4
+  PrevGreenShareOfVote: 1.6
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0.5
+--- !u!212 &1344875869
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1344875866}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 9bd0aac29585e574082735388feda209, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.71, y: 6.6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!1 &1351825393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1351825394}
+  - component: {fileID: 1351825396}
+  - component: {fileID: 1351825395}
+  m_Layer: 0
+  m_Name: Bridgwater&SomersetWest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1351825394
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1351825393}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 23, y: 19.975, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1365640682}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1351825395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1351825393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d78086a91480aaa4983f0ca1cd8203c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartingParty: 0
+  EnglandRegion: 6
+  ConstituencyName: Bridgwater and Somerset West
+  TurnoutNumber: 58267
+  TurnoutPercentage: 65.3
+  PrevConservativeShareOfVote: 55.1
+  PrevLabourShareOfVote: 28.6
+  PrevLibDemShareOfVote: 10.9
+  PrevUKIPShareOfVote: 3.6
+  PrevGreenShareOfVote: 1.8
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
+--- !u!212 &1351825396
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1351825393}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 9bd0aac29585e574082735388feda209, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.71, y: 6.6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!1 &1363912958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1363912959}
+  m_Layer: 0
+  m_Name: 'Distance Across: 5.75'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1363912959
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1363912958}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 100, y: 100, z: 100}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1365640680
 GameObject:
   m_ObjectHideFlags: 0
@@ -2426,6 +3714,23 @@ Transform:
   - {fileID: 854207827}
   - {fileID: 1190997912}
   - {fileID: 1642160894}
+  - {fileID: 248391783}
+  - {fileID: 718533814}
+  - {fileID: 836348177}
+  - {fileID: 956404683}
+  - {fileID: 125668875}
+  - {fileID: 1292243150}
+  - {fileID: 368139773}
+  - {fileID: 2145734182}
+  - {fileID: 764327133}
+  - {fileID: 1344875867}
+  - {fileID: 1351825394}
+  - {fileID: 1826514133}
+  - {fileID: 1693202851}
+  - {fileID: 1158454700}
+  - {fileID: 2096950376}
+  - {fileID: 200951350}
+  - {fileID: 2143945071}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2545,13 +3850,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartingParty: 0
-  ConstituencyName: St Austell & Newquay
-  ConstituencyPopulation: 0
+  EnglandRegion: 6
+  ConstituencyName: St. Austell & Newquay
+  TurnoutNumber: 54212
+  TurnoutPercentage: 69
   PrevConservativeShareOfVote: 49.5
   PrevLabourShareOfVote: 29
   PrevLibDemShareOfVote: 21.5
   PrevUKIPShareOfVote: 0
   PrevGreenShareOfVote: 0
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
 --- !u!212 &1552129186
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2638,13 +3949,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartingParty: 0
+  EnglandRegion: 6
   ConstituencyName: Cornwall South East
-  ConstituencyPopulation: 0
+  TurnoutNumber: 53224
+  TurnoutPercentage: 74
   PrevConservativeShareOfVote: 55.4
   PrevLabourShareOfVote: 22.6
   PrevLibDemShareOfVote: 19.4
   PrevUKIPShareOfVote: 0
   PrevGreenShareOfVote: 2.5
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
 --- !u!212 &1568345825
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2731,13 +4048,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartingParty: 0
+  EnglandRegion: 6
   ConstituencyName: Totnes
-  ConstituencyPopulation: 0
+  TurnoutNumber: 50270
+  TurnoutPercentage: 73.4
   PrevConservativeShareOfVote: 53.7
   PrevLabourShareOfVote: 26.8
   PrevLibDemShareOfVote: 12.9
   PrevUKIPShareOfVote: 2.5
   PrevGreenShareOfVote: 4.2
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
 --- !u!212 &1575700928
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2958,13 +4281,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartingParty: 0
+  EnglandRegion: 6
   ConstituencyName: Devon Central
-  ConstituencyPopulation: 0
-  PrevConservativeShareOfVote: 50.7
-  PrevLabourShareOfVote: 12.1
-  PrevLibDemShareOfVote: 36.6
-  PrevUKIPShareOfVote: 0
-  PrevGreenShareOfVote: 0
+  TurnoutNumber: 57844
+  TurnoutPercentage: 78.6
+  PrevConservativeShareOfVote: 54.1
+  PrevLabourShareOfVote: 27
+  PrevLibDemShareOfVote: 11.7
+  PrevUKIPShareOfVote: 2.3
+  PrevGreenShareOfVote: 2.6
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 2.3
 --- !u!212 &1642160896
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3143,6 +4472,105 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1646628683}
+--- !u!1 &1693202850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1693202851}
+  - component: {fileID: 1693202853}
+  - component: {fileID: 1693202852}
+  m_Layer: 0
+  m_Name: DevonWest&Torridge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1693202851
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1693202850}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.5, y: 19.975, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1365640682}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1693202852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1693202850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d78086a91480aaa4983f0ca1cd8203c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartingParty: 0
+  EnglandRegion: 6
+  ConstituencyName: Devon West and Torridge
+  TurnoutNumber: 59480
+  TurnoutPercentage: 73.9
+  PrevConservativeShareOfVote: 56.5
+  PrevLabourShareOfVote: 21.7
+  PrevLibDemShareOfVote: 17.7
+  PrevUKIPShareOfVote: 0
+  PrevGreenShareOfVote: 2.7
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 1.3
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
+--- !u!212 &1693202853
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1693202850}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 9bd0aac29585e574082735388feda209, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.71, y: 6.6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1741114537
 GameObject:
   m_ObjectHideFlags: 0
@@ -3365,6 +4793,105 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1805209261}
+--- !u!1 &1826514132
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1826514133}
+  - component: {fileID: 1826514135}
+  - component: {fileID: 1826514134}
+  m_Layer: 0
+  m_Name: DevonNorth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1826514133
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1826514132}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 17.25, y: 19.975, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1365640682}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1826514134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1826514132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d78086a91480aaa4983f0ca1cd8203c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartingParty: 0
+  EnglandRegion: 6
+  ConstituencyName: Devon North
+  TurnoutNumber: 55705
+  TurnoutPercentage: 73.2
+  PrevConservativeShareOfVote: 45.8
+  PrevLabourShareOfVote: 12.7
+  PrevLibDemShareOfVote: 38
+  PrevUKIPShareOfVote: 2.1
+  PrevGreenShareOfVote: 1.4
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
+--- !u!212 &1826514135
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1826514132}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 9bd0aac29585e574082735388feda209, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.71, y: 6.6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1829536033
 GameObject:
   m_ObjectHideFlags: 0
@@ -3620,19 +5147,152 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartingParty: 0
+  EnglandRegion: 6
   ConstituencyName: Plymouth Moor View
-  ConstituencyPopulation: 0
+  TurnoutNumber: 45417
+  TurnoutPercentage: 65.5
   PrevConservativeShareOfVote: 51.9
   PrevLabourShareOfVote: 40.8
   PrevLibDemShareOfVote: 2
   PrevUKIPShareOfVote: 4.1
   PrevGreenShareOfVote: 1.2
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
 --- !u!212 &2058783818
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2058783815}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 9bd0aac29585e574082735388feda209, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.71, y: 6.6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!1 &2061515361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2061515362}
+  m_Layer: 0
+  m_Name: 'Distance Up: 5'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2061515362
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2061515361}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 100, y: 100, z: 100}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2096950375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2096950376}
+  - component: {fileID: 2096950378}
+  - component: {fileID: 2096950377}
+  m_Layer: 0
+  m_Name: Somerton&Frome
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2096950376
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2096950375}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 43.125, y: 24.975, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1365640682}
+  m_RootOrder: 32
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2096950377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2096950375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d78086a91480aaa4983f0ca1cd8203c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartingParty: 0
+  EnglandRegion: 6
+  ConstituencyName: Somerton and Frome
+  TurnoutNumber: 63592
+  TurnoutPercentage: 75.3
+  PrevConservativeShareOfVote: 57
+  PrevLabourShareOfVote: 17.3
+  PrevLibDemShareOfVote: 21
+  PrevUKIPShareOfVote: 0
+  PrevGreenShareOfVote: 3.2
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 1.6
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
+--- !u!212 &2096950378
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2096950375}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -3713,19 +5373,223 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartingParty: 0
+  EnglandRegion: 6
   ConstituencyName: Torbay
-  ConstituencyPopulation: 0
+  TurnoutNumber: 51174
+  TurnoutPercentage: 67.4
   PrevConservativeShareOfVote: 53
   PrevLabourShareOfVote: 18.2
   PrevLibDemShareOfVote: 25.1
   PrevUKIPShareOfVote: 2.4
   PrevGreenShareOfVote: 1.3
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
 --- !u!212 &2112871633
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2112871630}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 9bd0aac29585e574082735388feda209, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.71, y: 6.6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!1 &2143945070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2143945071}
+  - component: {fileID: 2143945073}
+  - component: {fileID: 2143945072}
+  m_Layer: 0
+  m_Name: Salisbury
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2143945071
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2143945070}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 54.625, y: 24.975, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1365640682}
+  m_RootOrder: 34
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2143945072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2143945070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d78086a91480aaa4983f0ca1cd8203c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartingParty: 0
+  EnglandRegion: 6
+  ConstituencyName: Salisbury
+  TurnoutNumber: 53311
+  TurnoutPercentage: 74.1
+  PrevConservativeShareOfVote: 58.1
+  PrevLabourShareOfVote: 25.5
+  PrevLibDemShareOfVote: 11.2
+  PrevUKIPShareOfVote: 2.2
+  PrevGreenShareOfVote: 2.2
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0.8
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
+--- !u!212 &2143945073
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2143945070}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 9bd0aac29585e574082735388feda209, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.71, y: 6.6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!1 &2145734181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2145734182}
+  - component: {fileID: 2145734184}
+  - component: {fileID: 2145734183}
+  m_Layer: 0
+  m_Name: DorsetMid&PooleNorth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2145734182
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2145734181}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 40.25, y: 19.975, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1365640682}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2145734183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2145734181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d78086a91480aaa4983f0ca1cd8203c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartingParty: 0
+  EnglandRegion: 6
+  ConstituencyName: Dorset Mid and Poole North
+  TurnoutNumber: 48254
+  TurnoutPercentage: 74.2
+  PrevConservativeShareOfVote: 59.2
+  PrevLabourShareOfVote: 13.3
+  PrevLibDemShareOfVote: 27.5
+  PrevUKIPShareOfVote: 0
+  PrevGreenShareOfVote: 0
+  PrevYorkshirePartyShareOfVote: 0
+  PrevIndependentShareOfVote: 0
+  PrevIndependent2ShareOfVote: 0
+  PrevOthersShareOfVote: 0
+--- !u!212 &2145734184
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2145734181}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0

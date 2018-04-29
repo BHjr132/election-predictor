@@ -10,15 +10,30 @@ public class UKEnglandConstituency : MonoBehaviour {
 
 	public startingParty StartingParty;
 
+	public enum englandRegion {
+		EastEngland, EastMidlands, London, NorthEastEngland, NorthWestEngland, SouthEastEngland, SouthWestEngland, WestMidlands, YorkshireHumber
+	}
+
+	public englandRegion EnglandRegion;
+
 	public string ConstituencyName;
 
-	public int ConstituencyPopulation;
+	[Header("Turnout")]
+
+	public int TurnoutNumber;
+	public float TurnoutPercentage;
+
+	[Header("Party Variables")]
 
 	public float PrevConservativeShareOfVote;
 	public float PrevLabourShareOfVote;
 	public float PrevLibDemShareOfVote;
 	public float PrevUKIPShareOfVote;
 	public float PrevGreenShareOfVote;
+	public float PrevYorkshirePartyShareOfVote;
+	public float PrevIndependentShareOfVote;
+	public float PrevIndependent2ShareOfVote;
+	public float PrevOthersShareOfVote;
 
 	float NewConservativeShareOfVote;
 	float NewLabourShareOfVote;
